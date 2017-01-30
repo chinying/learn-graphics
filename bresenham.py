@@ -7,6 +7,7 @@ def main():
     # print(grid)
     bresenham(0, 1, 6, 4, grid)
 
+# note this only works for gradient < 45 deg
 def bresenham(x0, y0, x1, y1, grid):
     dx = x1 - x0
     dy = y1 - y0
